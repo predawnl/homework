@@ -1,4 +1,6 @@
 由于是初学，花了一颗比较简单的树
+![Image text](https://github.com/predawnl/homework/blob/master/tree.png)
+
 //代码块
 # drawtree.py
 
