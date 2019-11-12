@@ -5,14 +5,14 @@
 from turtle import Turtle, mainloop
   
 def tree(plist, l, a, f):
-  if l > 5: #
+  if l > 5: 
     lst = []
     for p in plist:
-      p.forward(l)#沿着当前的方向画画
+      p.forward(l)  '沿着当前的方向画画'
       q = p.clone()
       p.left(a) 
       q.right(a)
-      lst.append(p)#将元素增加到列表的最后
+      lst.append(p) '将元素增加到列表的最后'
       lst.append(q)
     tree(lst, l*f, a, f)
    
